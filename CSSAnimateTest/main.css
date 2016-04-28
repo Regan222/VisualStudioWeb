@@ -1,26 +1,51 @@
-﻿body {
-}
+﻿
+/*
+    Layout Section
+    This section controls the size and layout of the various page sections
+    All color and presentation effects should be kept in the presentation section
+*/
+#header {
 
-#Button {
-
-position: absolute;
-top: 250px;
-left: 75px;
-}
-
-#Greeting {
-
+    padding: 5px;
     position: absolute;
-    top: 400px;
+    top: 75px;
     left: 75px;
-    width: 300px;
-    background-color: lightblue;
-
+    height: 100px;
+    width: 800px;
+   
 }
 
-#NewBox{
+#nav    {
+    padding: 5px;
     position: absolute;
-    top: 250px;
-    left: 200px;
-    width: 100px;
+    top: 195px;
+    left: 75px;
+    height: 50px;
+    width: 800px;
+    
 }
+
+
+#footer    {
+    padding: 5px;
+    position: absolute;
+    top: 590px;
+    left: 75px;
+    height: 100px;
+    width: 800px;
+    
+}
+/**************************************************************************/
+
+
+/*
+    Presentation Section
+    This section controls the color and presentation of the data.
+    All layout and location effects should be kept in the layout section
+*/
+.construct {
+       background-color: lightgreen;
+       }
+
+
+/***************************************************************************/

@@ -11,6 +11,9 @@
 </head>
 <body>
     <form id="form1" runat="server">
+        <div id="header" class="construct">Header Info</div>
+        <div id="nav" class="construct">Navigation Info</div>
+        <div id="footer" class="construct">Footer Info</div>
     <div>
         <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
         
